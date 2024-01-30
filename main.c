@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "app.h"
 
 int main()
 {
@@ -6,5 +7,6 @@ int main()
     printf("Ngoc");
     printf("Dung");
     //Change branch 2
+    myfunction();
     return 0;
 }
